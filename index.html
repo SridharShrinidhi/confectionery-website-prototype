@@ -8,12 +8,16 @@
 </head>
 <body>
   <header id="m">
-    <img src="images/people-circle.svg" alt="logo">
+    <img class="logo" src="images-site/logo.jpg" alt="logo">
     <h1>Coco's Chocolatiers</h1>
-    <img src="cart" alt="cart">
-    <img src="search" alt="search">
+    <a class="search" href="#"><img src="images-site/search-icon-b.svg" alt="search"></a>
+    <a class="cart" href="#"><img src="images-site/cart-icon-b.svg" alt="cart"></a>
     <nav>
-      <ul>
+      <input type="checkbox" class="nav-check" id="nav-check">
+      <label class="nav-label" for="nav-check">
+        <img src="images/nav-icon.svg" alt="Open navigation">
+      </label>
+      <ul class="nav">
         <li><a href="#h">Home</a></li>
         <li><a href="#a">About us</a></li>
         <li><a href="#p">Products</a></li>
@@ -23,62 +27,73 @@
   </header>
   <main>
     <div id="h" class="home">
-    <img src="images-site/cn2.jpg" alt="cacao nibs">
-    <p>World's finest chocolate connoiseurs</p>
+      <img src="images-site/cn2.jpg" alt="cacao nibs">
+      <p>World's finest chocolate connoisseurs!</p>
     </div>
     <section id="a" class="about">
-      <h2>About us</h2>
+      <h2>About us</h2><hr>
       <p>Handpicked nibs, tempered for the sweet tooth. Our 90 years of experience as world's famous chocolate connoisseurs, has products to fulfil every chocolate lovers' fantasy.</p>
     </section>
     <section id="p" class="products">
-      <h2>Products</h2>
+      <h2>Products</h2><hr>
       <div class="white">
-        <img src="whitechocolate" alt="white">
-        <h3>White chocolate</h3>
-      </div>
-      <div class="dark">
-        <img src="darkchocolate" alt="dark">
-        <h3>Dark chocolate</h3>
-      </div>
-      <div class="milk">
-        <img src="milkchocolate" alt="milk">
+        <img src="images-site/mast.svg" alt="white">
         <h3>Milk chocolate</h3>
       </div>
-      <div class="chips">
-        <img src="chips" alt="chips">
-        <h3>Chips</h3>
+      <div class="dark">
+        <img src="images-site/mast2.svg" alt="dark">
+        <h3>Maldon chocolate</h3>
+      </div>
+      <div class="milk">
+        <img src="images-site/mast3.svg" alt="milk">
+        <h3>Sel Gris chocolate</h3>
+      </div>
+      <div class="nut">
+        <img src="images-site/mast4 copy.jpg" alt="chips">
+        <h3>Hazelnut</h3>
       </div>
     </section>
     <section class="story">
-      <h2>Our story</h2>
+      <h2>Our story</h2><hr>
       <article class="blog1">
         <h3>Our store opening at France</h3>
         <p>Blogpost on that</p>
+        <div class="btn">
+          <a href="#">Read more...</a>
+        </div>
       </article>
       <article class="blog2">
         <h3>Christmas special</h3>
         <p>Blogpost on that</p>
+        <div class="btn">
+          <a href="#">Read more...</a>
+        </div>
       </article>
       <article class="blog3">
         <h3>Thanksgiving at Florida</h3>
         <p>Blogpost on that</p>
+        <div class="btn">
+          <a href="#">Read more...</a>
+        </div>
       </article>
       <article class="blog4">
         <h3>New products</h3>
         <p>Blogpost on that</p>
+        <div class="btn">
+          <a href="#">Read more...</a>
+        </div>
       </article>
     </section>
     <section id="c">
       <h2>Get in touch with us!</h2>
-      <p>150 Elgin Street<br>Ottawa, Ontario  K1N 8P5</p>
+      <p>150 Elgin Street<br>Ottawa, Ontario K1N 8P5</p>
       <p>+1 (613) 981 0346</p>
-      <p><a href="#m">www.cocoschocolatiers.com</a><p>
+      <p><a href="#m">www.cocoschocolatiers.com</a></p>
     </section>
   </main>
   <footer>
-    <p><small>Coco's chocolatier 2016</small></p>
+    <p><small>coco's chocolatier 2016</small></p>
   </footer>
-
 
 </body>
 </html>

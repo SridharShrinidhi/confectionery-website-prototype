@@ -20,99 +20,165 @@ html {
 
 body {
   margin: 0;
+  background-color: #76584e;
 }
 
-ul {
-  padding: 0;
-  list-style-type: none;
+header {
+  background-color: #594139;
 }
 
-li {
-  display: inline-block;
-  text-decoration: none;
-}
-
-a {
-  display: inline-block;
-  text-decoration: none;
+.logo {
+  display: block;
+  width: 30%;
+  text-align: center;
+  margin: .25rem auto;
 }
 
 h1 {
-  margin: 0;
-  display: inline-block;
-  float: left;
-  width: 50%;
-}
-
-header img:first-child {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-
-}
-
-header img:nth-child(2),
-header img:last-child {
-  display: inline-block;
-  width: 50%;
-  float: right;
-}
-
-nav {
-  display: block;
-  text-align: center;
-}
-
-.home img{
   display: block;
   width: 100%;
-  margin-left: 0;
+  text-align: center;
+  font-size: 1.25rem;
+  color: white;
+  margin: .25rem 0 .25rem .25rem;
 }
 
-.home {
+.search {
   display: inline-block;
-  position: relative;
+  width: 33.33%;
+  float: left;
+  margin: 1rem .25rem .5rem 0;
+}
+
+.cart {
+  display: inline-block;
+  width: 33.33%;
+  float: left;
+  padding: .75rem .2rem;
+}
+
+.nav {
+  display: none;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+  background-color: #594139;
+}
+
+label {
+  margin: 0;
+}
+
+.nav-check:checked ~ .nav {
+  display: inline-block;
+}
+
+.nav-label {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.nav-label img {
+  display: inline-block;
+  width: 20%;
+  float: right;
+  padding: .75rem .2rem;
+}
+
+.nav li {
+  display: inline-block;
+  text-align: center;
+  padding: .75rem;
+  width: 100%;
+}
+
+.nav li a:hover {
+  background-color: white;
+  color: #76584e;
+  padding: .75rem;
+  width: 100%;
+}
+
+h2,
+h3 {
+  color: white;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
 }
 
 .home p {
-  display: inline-block;
-  position: absolute;
-  padding: 3em;
-  left: 17em;
-  bottom: .5rem;
-  border-width: 2px;
-  border-color: black;
-  border-style: solid;
   background-color: white;
-  font-size: 2rem;
+  color: black;
+  padding: 1rem;
+  margin: 0;
+}
+
+.home img {
+  display: block;
+  width: 100%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
+  margin-bottom: 0;
+}
+
+.about h2 {
+  display: block;
+  margin-bottom: 0;
+  color: white;
+}
+
+hr {
+  width: 25%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.products h2 {
+  margin-bottom: 0;
 }
 
 .story h2 {
-  display: block;
+  margin-bottom: 0;
+}
+
+.btn {
   text-align: center;
+  display: inline-block;
+  padding: .175rem .75rem;
+  border-width: 1px;
+  border-radius: 3px;
+  border-style: solid;
+  background-color: white;
+  color: black;
 }
 
-.blog1 {
-  display: inline-block;
-  float: left;
-  width: 25%;
+.btn a {
+  text-decoration: none;
+  background-color: white;
+  color: black;
 }
 
-.blog2 {
+.btn a:hover {
   display: inline-block;
-  float: left;
-  width: 25%;
+  background-color: #76584e;
+  color: white;
+  width: 100%;
+  padding: .175rem .75rem;
+  border-width: 1px;
 }
 
-.blog3 {
-  display: inline-block;
-  float: left;
-  width: 25%;
-}
-
-.blog4 {
-  display: inline-block;
-  float: right;
-  width: 25%;
+.products img {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: .25rem auto;
 }
