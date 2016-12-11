@@ -94,18 +94,17 @@ label {
   display: inline-block;
   text-align: center;
   padding: .75rem;
-  width: 100%;
+  width: 20em;
 }
 
 .nav li a:hover {
   background-color: white;
   color: #76584e;
   padding: .75rem;
-  width: 100%;
+  width: 20em;
 }
 
-h2,
-h3 {
+h2 {
   color: white;
 }
 
@@ -181,4 +180,73 @@ hr {
   width: 100%;
   text-align: center;
   margin: .25rem auto;
+}
+
+.products div {
+  background-color: #594139;
+  color: white;
+}
+
+.products p {
+  background-color: #594139;
+  color: white;
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 20em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.3;
+  }
+
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .nav {
+    width: 100%;
+  }
+
+  .nav li {
+    float: left;
+    width: 50%;
+  }
+
+  .blog1 {
+    float: left;
+    width: 50%;
+  }
+
+  .blog2 {
+      float: left;
+      width: 50%;
+  }
+
+  .blog3 {
+      float: left;
+      width: 50%;
+  }
+
+  .blog4 {
+      float: left;
+      width: 50%;
+  }
+
+  .story {
+    margin: 1rem;
+  }
+
+  .contact {
+    display: block;
+    text-align: center;
+    margin: 1rem auto;
+    padding: 1rem;
+  }
+
 }
