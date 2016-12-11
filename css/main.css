@@ -353,6 +353,27 @@ hr {
     line-height: 1.5;
   }
 
+  .home {
+    position: relative;
+  }
+
+  .home img {
+    width: 50%;
+    margin: 5rem;
+  }
+
+  .home p {
+    position: absolute;
+    bottom: 4rem;
+    left: 30rem;
+    padding: 5rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    font-size: 2rem;
+    margin-right: 5rem;
+  }
+
   .logo {
     float: left;
     width: 25%;
