@@ -275,8 +275,6 @@ hr {
   .p1 {
     display: inline-block;
     float: left;
-    min-height: 900px;
-    height: 600px;
     width: 50%;
     padding: 1.5rem;
   }
@@ -284,8 +282,6 @@ hr {
   .p2 {
     display: inline-block;
     float: left;
-    min-height: 900px;
-    height: 600px;
     width: 50%;
     padding: 1.5rem;
   }
@@ -293,8 +289,6 @@ hr {
   .p3 {
     display: inline-block;
     float: left;
-    min-height: 900px;
-    height: 600px;
     width: 50%;
     padding: 1.5rem;
   }
@@ -302,8 +296,6 @@ hr {
   .p4 {
     display: inline-block;
     float: left;
-    min-height: 900px;
-    height: 600px;
     width: 50%;
     padding: 1.5rem;
   }
@@ -345,44 +337,26 @@ hr {
 
   .p1 {
     float: left;
-    min-height: 550px;
     width: 25%;
-    height: 450px;
   }
 
   .p2 {
     float: left;
-    min-height: 550px;
     width: 25%;
-    height: 450px;
   }
 
   .p3 {
     float: left;
-    min-height: 550px;
     width: 25%;
-    height: 450px;
   }
 
   .p4 {
     float: left;
-    min-height: 550px;
     width: 25%;
-    height: 450px;
   }
 
 }
 
-@media only screen and (min-width: 67em) {
-
-  .p1,
-  .p2,
-  .p3,
-  .p4 {
-    height: 500px;
-  }
-
-}
 
 @media only screen and (min-width: 90em) {
 
@@ -446,13 +420,6 @@ hr {
 
   .products {
     margin: 2rem;
-  }
-
-  .p1,
-  .p2,
-  .p3,
-  .p4 {
-    height: 650px;
   }
 
   .blog1 {
