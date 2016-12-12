@@ -105,17 +105,15 @@ label {
   color: white;
 }
 
-.btn a {
+.btn {
   text-decoration: none;
   background-color: white;
   color: black;
 }
 
-.btn a:hover {
-  display: inline-block;
+.btn:hover {
   background-color: #76584e;
   color: white;
-  width: 100%;
   border-width: 1px;
 }
 
@@ -280,31 +278,40 @@ hr {
   }
 
   .p1 {
+    display: inline-block;
     float: left;
+    min-height: 900px;
+    height: 600px;
     width: 50%;
     padding: 1.5rem;
-    margin-bottom: 0;
   }
 
   .p2 {
+    display: inline-block;
     float: left;
+    min-height: 900px;
+    height: 600px;
     width: 50%;
-    padding: 2rem;
+    padding: 1.5rem;
   }
 
   .p3 {
+    display: inline-block;
     float: left;
+    min-height: 900px;
+    height: 600px;
     width: 50%;
-    padding: 2rem;
+    padding: 1.5rem;
   }
 
   .p4 {
+    display: inline-block;
     float: left;
+    min-height: 900px;
+    height: 600px;
     width: 50%;
-    padding: 2.13rem;
+    padding: 1.5rem;
   }
-
-}
 
 @media only screen and (min-width: 60em) {
 
@@ -312,8 +319,6 @@ hr {
     font-size: 120%;
     line-height: 1.5;
   }
-
-
 
   .products {
     margin: 2rem;
@@ -343,28 +348,42 @@ hr {
 
   .p1 {
     float: left;
+    min-height: 550px;
     width: 25%;
     height: 450px;
   }
 
   .p2 {
     float: left;
+    min-height: 550px;
     width: 25%;
     height: 450px;
   }
 
   .p3 {
     float: left;
+    min-height: 550px;
     width: 25%;
     height: 450px;
   }
 
   .p4 {
     float: left;
+    min-height: 550px;
     width: 25%;
     height: 450px;
   }
 
+}
+
+@media only screen and (min-width: 67em) {
+
+  .p1,
+  .p2,
+  .p3,
+  .p4 {
+    height: 500px;
+  }
 }
 
 @media only screen and (min-width: 90em) {
