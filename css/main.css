@@ -87,9 +87,10 @@ label {
 
 .nav-label img {
   display: inline-block;
-  width: 20%;
+  width: 40px;
   float: right;
   padding: .75rem .2rem;
+  margin-top: .5rem;
 }
 
 .nav li {
@@ -115,15 +116,15 @@ label {
   background-color: #76584e;
   color: white;
   width: 100%;
-  padding: .175rem .75rem;
   border-width: 1px;
 }
 
-.nav li a:hover {
+.nav li:hover {
   background-color: white;
+}
+
+.nav li:hover a {
   color: #76584e;
-  padding: .75rem;
-  width: 20em;
 }
 
 h2 {
@@ -195,6 +196,11 @@ hr {
   margin-top: 0;
 }
 
+.contact a {
+  text-decoration: none;
+  color: white;
+}
+
 @media only screen and (min-width: 20em) {
 
   html {
@@ -218,6 +224,15 @@ hr {
   .nav li {
     float: left;
     width: 50%;
+  }
+
+  .p1,
+  .p2,
+  .p3,
+  .p4 {
+    display: block;
+    width: 50%;
+    margin: auto;
   }
 
   .blog1 {
@@ -298,6 +313,8 @@ hr {
     line-height: 1.5;
   }
 
+
+
   .products {
     margin: 2rem;
   }
@@ -310,7 +327,7 @@ hr {
   .nav {
     display: block;
     text-align: center;
-    width: 70%;
+    width: 80%;
   }
 
   .nav li {
@@ -327,21 +344,25 @@ hr {
   .p1 {
     float: left;
     width: 25%;
+    height: 450px;
   }
 
   .p2 {
     float: left;
     width: 25%;
+    height: 450px;
   }
 
   .p3 {
     float: left;
     width: 25%;
+    height: 450px;
   }
 
   .p4 {
     float: left;
     width: 25%;
+    height: 450px;
   }
 
 }
@@ -351,6 +372,10 @@ hr {
   html {
     font-size: 130%;
     line-height: 1.5;
+  }
+
+  header {
+    margin-bottom: 2rem;
   }
 
   .home {
@@ -375,13 +400,62 @@ hr {
   }
 
   .logo {
+    display: block;
+    float: left;
+    width: 15%;
+    margin: .5rem;
+    padding: 2rem;
+  }
+
+  h1 {
+    display: inline-block;
+    float: left;
+    width: 70%;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .cart,
+  .search {
+    float: right;
+    width: 5%;
+  }
+
+  .nav {
+    width: 85%;
+    margin-bottom: 3rem;
+  }
+
+  .products {
+    margin: 2rem;
+  }
+
+  .p1,
+  .p2,
+  .p3,
+  .p4 {
+    height: 650px;
+  }
+
+  .blog1 {
     float: left;
     width: 25%;
   }
 
-  h1 {
+  .blog2 {
     float: left;
-    width: 75%;
+    width: 25%;
+  }
+
+  .blog3 {
+    float: left;
+    width: 25%;
+  }
+
+  .blog4 {
+    float: left;
+    width: 25%;
   }
 
 }
