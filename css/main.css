@@ -106,6 +106,13 @@ label {
   color: white;
 }
 
+.blog1 p:first-child,
+.blog2 p:first-child,
+.blog3 p:first-child,
+.blog4 p:first-child {
+  color: white;
+}
+
 .btn {
   text-align: center;
   display: inline-block;
