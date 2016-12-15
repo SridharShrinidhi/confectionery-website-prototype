@@ -21,7 +21,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #76584e;
+
 }
 
 header {
@@ -30,7 +30,7 @@ header {
 
 .logo {
   display: block;
-  width: 30%;
+  width: 20%;
   text-align: center;
   margin: .25rem auto;
   background-color: white;
@@ -145,7 +145,7 @@ label {
 }
 
 h2 {
-  color: white;
+  color: black;
 }
 
 .home p {
@@ -167,7 +167,7 @@ h2 {
 .about h2 {
   display: block;
   margin-bottom: 0;
-  color: white;
+  color: black;
 }
 
 hr {
@@ -189,11 +189,6 @@ hr {
   width: 100%;
   text-align: center;
   margin: .25rem auto;
-}
-
-.products div {
-  background-color: #594139;
-  color: white;
 }
 
 .products p {
@@ -400,13 +395,14 @@ figcaption {
   .home p {
     position: absolute;
     bottom: 4rem;
-    left: 30rem;
+    left: 33rem;
     padding: 5rem;
     border-width: 2px;
     border-style: solid;
-    border-color: black;
+    border-color: #594139;
     font-size: 2rem;
     margin-right: 5rem;
+    opacity: .8;
   }
 
   .logo {
