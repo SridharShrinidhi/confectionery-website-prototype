@@ -33,7 +33,6 @@ header {
   width: 20%;
   text-align: center;
   margin: .25rem auto;
-  background-color: white;
 }
 
 h1 {
@@ -131,9 +130,90 @@ label {
   border-width: 1px;
 }
 
+.effect {
+  padding: 20px 20px 100px 20px;
+	max-width: 800px;
+	margin: 0 auto;
+	list-style-type: none;
+	text-align: center;
+}
+
+.effect li {
+	display: inline-block;
+	width: 440px;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+}
+
+.effect figure {
+	margin: 0;
+	position: relative;
+}
+
+.effect figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+.effect figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: #2c3f52;
+	color: #ed4e6e;
+}
+
+.effect figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+.effect h3 span{
+	color: #76584e;
+}
+
+.effect figcaption a {
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 2px;
+	display: inline-block;
+	background: #ed4e6e;
+	color: #fff;
+  text-decoration: none;
+}
+
+.effect figure img {
+	z-index: 10;
+	transition: 0.4s;
+}
+
+.effect figure:hover img {
+	transform: translateY(-50px) scale(0.5);
+}
+
+.effect figcaption {
+	height: 100%;
+	width: 100%;
+}
+
+.effect figcaption h3 {
+	margin-top: 60%;
+}
+
+.effect figcaption a {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
 .contact a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .nav li:hover {
