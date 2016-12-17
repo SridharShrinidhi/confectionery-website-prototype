@@ -48,7 +48,7 @@ h1 {
   text-align: center;
   font-size: 1.25rem;
   color: white;
-  margin: .25rem 0 .25rem .25rem;
+  margin: 0;
 }
 
 .search {
@@ -258,6 +258,11 @@ figcaption {
   position: absolute;
   bottom: 20px;
   right: 4rem;
+}
+
+.effect figcaption a:hover {
+  background: #fff;
+  color: #ed4e6e;
 }
 
 .effect figure:hover img {
