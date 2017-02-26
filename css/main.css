@@ -329,6 +329,14 @@ hr {
   text-align: center;
 }
 
+form {
+  text-align: center;
+}
+
+label {
+  display: block;
+}
+
 @media only screen and (min-width: 20em) {
 
   html {
