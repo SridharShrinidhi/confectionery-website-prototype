@@ -118,6 +118,7 @@ label {
   color: black;
   padding: 1rem;
   margin: 0;
+  font-size: 2rem;
 }
 
 .effect figcaption p {
@@ -206,6 +207,7 @@ h2 {
   border-style: solid;
   border-color: white;
   margin-bottom: 0;
+  height: 65vh;
 }
 
 .products img {
@@ -339,6 +341,12 @@ label {
   display: block;
 }
 
+input {
+    border: 1px solid #76584e;
+    width: 25rem;
+    height: 2rem;
+}
+
 @media only screen and (min-width: 20em) {
 
   html {
@@ -433,6 +441,10 @@ label {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  .home {
+    height: 85vh;
   }
 
   .products {
@@ -556,7 +568,7 @@ label {
   }
 
   header {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
   }
 
   .home {
@@ -565,7 +577,9 @@ label {
 
   .home img {
     width: 60%;
-    margin: 5rem;
+    margin: 4rem;
+    margin-top: .5rem;
+    height: 80vh;
   }
 
   .home p {
@@ -576,7 +590,7 @@ label {
     border-width: 2px;
     border-style: solid;
     border-color: #594139;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-right: 5rem;
     opacity: .8;
   }
@@ -591,8 +605,8 @@ label {
   h1 {
     display: inline-block;
     float: left;
-    width: 70%;
-    font-size: 5rem;
+    width: 80%;
+    font-size: 3rem;
     text-align: center;
     margin-bottom: 3rem;
   }
