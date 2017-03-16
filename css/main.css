@@ -499,9 +499,9 @@ input {
 
   .home img {
     width: 75%;
-    margin: 4rem;
+    margin: 4rem 4rem 0;
     margin-top: .25rem;
-    height: 75vh;
+    height: 65vh;
   }
 
   .products {
@@ -527,12 +527,12 @@ input {
 
   .cart {
     float: right;
-    width: 10%;
+    width: 7%;
   }
 
   .search {
     float: left;
-    width: 10%;
+    width: 7%;
   }
 
   .p1 {
