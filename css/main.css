@@ -445,8 +445,9 @@ input {
     line-height: 1.4;
   }
 
-  .home {
-    height: 50vh;
+  .home img{
+    width: 55%
+    height: 55vh;
   }
 
   .products {
@@ -594,7 +595,7 @@ input {
 
   .home p {
     position: absolute;
-    bottom: 10rem;
+    bottom: 2rem;
     left: 33rem;
     padding: 4rem;
     border-width: 2px;
