@@ -446,8 +446,8 @@ input {
   }
 
   .home img{
-    width: 55%
-    height: 55vh;
+    width: 100%;
+    height: 65vh;
   }
 
   .products {
