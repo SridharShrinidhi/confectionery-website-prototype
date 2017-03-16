@@ -446,7 +446,7 @@ input {
   }
 
   .home {
-    height: 85vh;
+    height: 50vh;
   }
 
   .products {
@@ -498,7 +498,7 @@ input {
   }
 
   .home img {
-    width: 75%;
+    width: 80%;
     margin: 4rem 4rem 0;
     margin-top: .25rem;
     height: 65vh;
@@ -527,7 +527,7 @@ input {
 
   .cart {
     float: right;
-    width: 7%;
+    width: 8%;
   }
 
   .search {
